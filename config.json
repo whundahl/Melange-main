@@ -1,21 +1,21 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/whundahl/melange-main/master/README.md",
   "title": "Melange Ventures",
   "name": "Melange Ventures",
   "ascii": "Melange",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "https://github.com/whundahl",
+    "linkedin": "https://www.linkedin.com/in/nate-george/"
   },
-  "email": "contact@email.com",
+  "email": "jgeorge@melangeventures.xyz",
   "ps1_hostname": "Melange",
   "ps1_username": "guest",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "linked_in": "https://linkedin.com/whundahl",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/whundahl/Melange-main",
+  "linked_in": "https://www.linkedin.com/in/nate-george/ ",
+  "resume_url": "https://bannaphone.com",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://nowhere.com",
+    "patreon": "https://nowhere.com"
   },
   "colors": {
     "light": {

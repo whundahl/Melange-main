@@ -2,6 +2,7 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
+import { stringify } from 'querystring';
 
 // Help
 export const help = async (args: string[]): Promise<string> => {
@@ -139,16 +140,18 @@ export const emacs = async (args?: string[]): Promise<string> => {
 }; */
 
 // Banner
-export const banner = (args?: string[]): string => {
-  return `                                           
-  
- ╔╦╗╔═╗╦  ╔═╗╔╗╔╔═╗╔═╗    
- ║║║║╣ ║  ╠═╣║║║║ ╦║╣     
- ╩ ╩╚═╝╩═╝╩ ╩╝╚╝╚═╝╚═╝    
- ╦  ╦╔═╗╔╗╔╔╦╗╦ ╦╦═╗╔═╗╔═╗
- ╚╗╔╝║╣ ║║║ ║ ║ ║╠╦╝║╣ ╚═╗
-  ╚╝ ╚═╝╝╚╝ ╩ ╚═╝╩╚═╚═╝╚═╝
-  __  __ ___ _      _   _  _  ___ ___  
+const bannerText = String.raw`
+   __  __ _____ _        _    _   _  ____ _____      
+  |  \/  | ____| |      / \  | \ | |/ ___| ____|     
+  | |\/| |  _| | |     / _ \ |  \| | |  _|  _|       
+  | |  | | |___| |___ / ___ \| |\  | |_| | |___      
+  |_|  |_|_____|_____/_/   \_|_| \_|\____|_____|     
+
+  __     _______ _   _ _____ _   _ ____  _____ ____  
+  \ \   / | ____| \ | |_   _| | | |  _ \| ____/ ___| 
+   \ \ / /|  _| |  \| | | | | | | | |_) |  _| \___ \ 
+    \ V / | |___| |\  | | | | |_| |  _ <| |___ ___) |
+     \_/  |_____|_| \_| |_|  \___/|_| \_|_____|____/ 
 
 Type 'help' to see the list of available commands.
 
@@ -156,4 +159,6 @@ Type 'help' to see the list of available commands.
   'portfolio' Lists our investments.
   'contact' For any questions.</i>
 `;
+export const banner = (args?: string[]): string => {
+  return bannerText;
 };

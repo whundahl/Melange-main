@@ -9,7 +9,7 @@ export const help = async (args: string[]): Promise<string> => {
   var c = '';
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
     if (i % 7 === 0) {
-      c += Object.keys(bin).sort()[i - 1] + '';
+      c += Object.keys(bin).sort()[i - 1] + '\n';
     } else {
       c += Object.keys(bin).sort()[i - 1] + '\n';
     }
@@ -38,10 +38,10 @@ More about me:
 'readme' - my github readme.`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
+/* export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
-};
+}; */
 
 /* // Donate
 export const donate = async (args: string[]): Promise<string> => {

@@ -9,9 +9,9 @@ export const help = async (args: string[]): Promise<string> => {
   var c = '';
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
     if (i % 7 === 0) {
-      c += Object.keys(bin).sort()[i - 1] + '\n';
+      c += Object.keys(bin).sort()[i - 1] + '';
     } else {
-      c += Object.keys(bin).sort()[i - 1] + ' ';
+      c += Object.keys(bin).sort()[i - 1] + '\n';
     }
   }
   return `Welcome! Here are all the available commands:
@@ -43,14 +43,14 @@ export const resume = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 };
 
-// Donate
+/* // Donate
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
 `;
-};
+}; */
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -110,14 +110,14 @@ directories`;
 
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+but, feel free to check out some of our other hidden features...`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const vi = async (args: string[]): Promise<string> => {
+/* export const vi = async (args: string[]): Promise<string> => {
   return `woah, you still use 'vi'? just try 'vim'.`;
 };
 
@@ -131,12 +131,12 @@ export const nvim = async (args: string[]): Promise<string> => {
 
 export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
-};
+}; */
 
-export const sudo = async (args?: string[]): Promise<string> => {
+/* export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
-};
+}; */
 
 // Banner
 export const banner = (args?: string[]): string => {

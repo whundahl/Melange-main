@@ -116,7 +116,9 @@ directories`;
 export const portfolio = async (args: string[]): Promise<string> => {
   return `
 <a  target="_blank" href="https://www.getroi.app"> <img src="/roi.png" width="250px" height="50px" alt="ROI"/></a>
-Buy AAPL on E*Trade. Sell TSLA on Robinhood. Swap Ethereum for Solana. Stake USDC on Ribbon. Set custom prices for your NFTs. All in one app.
+Buy AAPL on E*Trade. Sell TSLA on Robinhood. Swap Ethereum for Solana. Stake USDC on Ribbon. 
+
+Set custom prices for your NFTs. All in one app.
 
 <hr>
 <a target="_blank" href="https://www.stepn.com"> <img src="/stepn-logo.svg" width="250px" height="50px" alt="STEPN"/></a>

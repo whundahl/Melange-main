@@ -114,34 +114,26 @@ directories`;
 };
 
 export const portfolio = async (args: string[]): Promise<string> => {
-  return `<a  target="_blank" href="https://www.getroi.app"> <img src="/roi.png" width="250px" height="50px" alt="ROI"/></a> 
-
-  Buy AAPL on E*Trade. Sell TSLA on Robinhood. 
-  Swap Ethereum for Solana. Stake USDC on Ribbon. 
-  Set custom prices for your NFTs. All in one app.
+  return `
+<a  target="_blank" href="https://www.getroi.app"> <img src="/roi.png" width="250px" height="50px" alt="ROI"/></a>
+Buy AAPL on E*Trade. Sell TSLA on Robinhood. Swap Ethereum for Solana. Stake USDC on Ribbon. Set custom prices for your NFTs. All in one app.
 
 <a target="_blank" href="https://www.stepn.com"> <img src="/stepn-logo.svg" width="250px" height="50px" alt="STEPN"/></a>
 
-  STEPN is built around an essential daily activity for most people – moving around.
-  Users equip themselves with NFTs in the form of Sneakers. By walking, jogging, or running outdoors, 
-  users will earn game currency, which can either be used in-game, or cashed out for profit.
-
-  STEPN aims to nudge millions toward a healthier lifestyle, combat climate change and connect the
-  public to Web 3.0, all while simultaneously hinging on it’s Social-Fi aspect to build a long-lasting
-  platform fostering user generated Web 3.0 content.
+STEPN is built around an essential daily activity for most people – moving around. Users equip themselves with NFTs in the form of Sneakers. By walking, jogging, or running outdoors, users will earn game currency, which can either be used in-game, or cashed out for profit.
 
 <a target="_blank" href="https://www.shatterpoint.game"><img src="/shatterpoint_logo.png" width="250px" height="50px" alt="SHATTERPOINT"/></a>
-  The first skill-based, F2P, action RPG game for mobile on Polygon. 
-  Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames.">Block Games</a></u>
-  Join our <u><a target="_blank" href="http://Discord.gg/shatterpoint">Discord</a></u>
+The first skill-based, F2P, action RPG game for mobile on Polygon. Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames.">Block Games</a></u>
+
+Join our <u><a target="_blank" href="http://Discord.gg/shatterpoint">Discord</a></u>
 
 <a target="_blank" href="https://www.tonic.foundation"><img src="/tonic-logo.png" width="250px" height="50px" alt="TONIC"/></a>
 
-  Tonic brings the speed and convenience of centralized exchanges to NEAR while being fully decentralized.
-  One second block times and fast transaction finality, all on NEAR L1.
-  No middlemen or rent seekers, trade peer-to-peer directly with low fees.
+Tonic brings the speed and convenience of centralized exchanges to NEAR while being fully decentralized.
 
-  `;
+One second block times and fast transaction finality, all on NEAR L1.
+No middlemen or rent seekers, trade peer-to-peer directly with low fees.
+`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {

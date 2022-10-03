@@ -10,7 +10,9 @@
 
 * {
   font-family: 'Hack', monospace;
+  box-sizing: border-box;
 }
+
 
 html,
 body,
@@ -21,6 +23,16 @@ div#__next > div {
   overflow: auto;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

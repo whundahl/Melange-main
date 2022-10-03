@@ -2,7 +2,6 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
-import roiImg from '../../../public/roi.png';
 import { stringify } from 'querystring';
 
 // Help
@@ -24,11 +23,11 @@ Type 'sumfetch' to display summary.
 `;
 };
 
-// Redirection
+/* // Redirection
 export const repo = async (args: string[]): Promise<string> => {
   window.open(`${config.repo}`);
   return 'Opening Github repository...';
-};
+}; */
 
 // About
 export const about = async (args: string[]): Promise<string> => {
@@ -48,8 +47,8 @@ export const about = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 }; */
 
-/* // Donate
-export const donate = async (args: string[]): Promise<string> => {
+// Donate
+/* export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
@@ -58,11 +57,11 @@ here are the ways you can support my work:
 }; */
 
 // Contact
-export const contact = async (args: string[]): Promise<string> => {
+/* export const contact = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
   return `Opening mailto:${config.email}...`;
 };
-
+ */
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
 
@@ -115,6 +114,8 @@ directories`;
 
 export const portfolio = async (args: string[]): Promise<string> => {
   return `
+<div class="row">
+<div class="column">
 <a  target="_blank" href="https://www.getroi.app"> <img src="/roi.png" width="250px" height="50px" alt="ROI"/></a>
 Buy AAPL on E*Trade. Sell TSLA on Robinhood. Swap Ethereum for Solana. Stake USDC on Ribbon. 
 
@@ -142,6 +143,8 @@ One second block times and fast transaction finality, all on NEAR L1.
 No middlemen or rent seekers, trade peer-to-peer directly with low fees.
 
 <hr>
+</div>
+<div class="column">
 <a target="_blank" href="https://www.utiliti.ai"><img src="/utiliti.png" width="250px" height="50px" alt="UTILITI"/></a>
 
 Utiliti connects any tech stack to blockchain networks with enterprise-grade APIs and SDKs, ensuring the best user experience.
@@ -166,6 +169,10 @@ Civitas is a 4x MMO cross-platform (PC, Mobile, Web) civilization simulator that
 A credit line for every wallet.
 
 Income deserves credit. Ready to use, anytime.
+
+<hr>
+</div>
+</div>
 `;
 };
 

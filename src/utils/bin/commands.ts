@@ -31,12 +31,15 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+  return `
+  
+  Welcome to ${config.name}. 
+  
+  +-+-+-+ +-+-+-+-+-+
+  |O|u|r| |S|t|o|r|y|
+  +-+-+-+ +-+-+-+-+-+
+  
+  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit am`;
 };
 
 /* export const resume = async (args: string[]): Promise<string> => {
@@ -54,7 +57,7 @@ here are the ways you can support my work:
 }; */
 
 // Contact
-export const email = async (args: string[]): Promise<string> => {
+export const contact = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
   return `Opening mailto:${config.email}...`;
 };
@@ -107,6 +110,19 @@ bunch
 of
 fake
 directories`;
+};
+
+export const portfolio = async (args: string[]): Promise<string> => {
+  return `
+  <a href="https://www.getroi.app">ROI</a>
+
+  <a href="https://www.stepn.com">STEPN</a>
+
+  <a href="https://www.shatterpoint.game">SHATTERPOINT</a>
+
+  <a href="https://www.tonic.foundation">TONIC</a>
+
+  `;
 };
 
 export const cd = async (args: string[]): Promise<string> => {

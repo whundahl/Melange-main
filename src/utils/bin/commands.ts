@@ -260,7 +260,7 @@ Type 'help' to see the list of available commands.
 `;
 
 export const banner = (args?: string[]): string => {
-  if (window.innerWidth <= 400) {
+  if (window.innerWidth <= 450) {
     return smallBannerText;
   } else {
     return bannerText;

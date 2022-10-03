@@ -118,21 +118,52 @@ export const portfolio = async (args: string[]): Promise<string> => {
 <a  target="_blank" href="https://www.getroi.app"> <img src="/roi.png" width="250px" height="50px" alt="ROI"/></a>
 Buy AAPL on E*Trade. Sell TSLA on Robinhood. Swap Ethereum for Solana. Stake USDC on Ribbon. Set custom prices for your NFTs. All in one app.
 
+<hr>
 <a target="_blank" href="https://www.stepn.com"> <img src="/stepn-logo.svg" width="250px" height="50px" alt="STEPN"/></a>
 
-STEPN is built around an essential daily activity for most people – moving around. Users equip themselves with NFTs in the form of Sneakers. By walking, jogging, or running outdoors, users will earn game currency, which can either be used in-game, or cashed out for profit.
+STEPN is built around an essential daily activity for most people – moving around.
 
+Users equip themselves with NFTs in the form of Sneakers. By walking, jogging, or running outdoors, users will earn game currency, which can either be used in-game, or cashed out for profit.
+
+<hr>
 <a target="_blank" href="https://www.shatterpoint.game"><img src="/shatterpoint_logo.png" width="250px" height="50px" alt="SHATTERPOINT"/></a>
-The first skill-based, F2P, action RPG game for mobile on Polygon. Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames.">Block Games</a></u>
+The first skill-based, F2P, action RPG game for mobile on Polygon. Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames.">Block Games</a></u>.
 
 Join our <u><a target="_blank" href="http://Discord.gg/shatterpoint">Discord</a></u>
 
+<hr>
 <a target="_blank" href="https://www.tonic.foundation"><img src="/tonic-logo.png" width="250px" height="50px" alt="TONIC"/></a>
 
 Tonic brings the speed and convenience of centralized exchanges to NEAR while being fully decentralized.
 
 One second block times and fast transaction finality, all on NEAR L1.
 No middlemen or rent seekers, trade peer-to-peer directly with low fees.
+
+<hr>
+<a target="_blank" href="https://www.utiliti.ai"><img src="/utiliti.png" width="250px" height="50px" alt="UTILITI"/></a>
+
+Utiliti connects any tech stack to blockchain networks with enterprise-grade APIs and SDKs, ensuring the best user experience.
+
+One place for all your blockchain app/game development needs. Try for free, pay as you go, simple as that.
+
+<hr>
+<a target="_blank" href="https://welcometonor.com"><img src="/nor_battleworn_center.svg" width="250px" height="50px" alt="NOR"/></a>
+
+NOR is a universe that is neither metaverse NOR game. It does not exist as any single “thing.” In simple terms, NOR is a platform for play.
+
+This takes many shapes for many people, with the two most important being the city of Khora and the stadiums.
+
+<hr>
+<a target="_blank" href="https://playcivitas.io"><img src="/civitas.svg" width="250px" height="50px" alt="CIVITAS"/></a>
+
+Civitas is a 4x MMO cross-platform (PC, Mobile, Web) civilization simulator that allows anyone to build an entire virtual civilization from the ground up.
+
+<hr>
+<a target="_blank" href="https://huma.finance"><img src="/huma-logo.svg" width="250px" height="50px" alt="HUMA"/></a>
+
+A credit line for every wallet.
+
+Income deserves credit. Ready to use, anytime.
 `;
 };
 

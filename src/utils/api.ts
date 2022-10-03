@@ -14,5 +14,3 @@ export const getWeather = async (city: string) => {
     return error;
   }
 };
-
-

@@ -145,6 +145,11 @@ No middlemen or rent seekers, trade peer-to-peer directly with low fees.
 
 </div>
 <div class="column">
+<a target="_blank" href="https://www.block-games.co"><img src="/blog-games.png" width="250px" height="50px" alt="BLOCK GAMES"/></a>
+
+Block Games is a next-generation game development and publishing studio, with a mission to bring mass-adoption of blockchain technology through player-owned mobile games.
+
+
 <a target="_blank" href="https://www.utiliti.ai"><img src="/utiliti.png" width="250px" height="50px" alt="UTILITI"/></a>
 
 Utiliti connects any tech stack to blockchain networks with enterprise-grade APIs and SDKs, ensuring the best user experience.

@@ -130,7 +130,7 @@ Users equip themselves with NFTs in the form of Sneakers. By walking, jogging, o
 
 
 <a target="_blank" href="https://www.shatterpoint.game"><img src="/shatterpoint_logo.png" width="250px" height="50px" alt="SHATTERPOINT"/></a>
-The first skill-based, F2P, action RPG game for mobile on Polygon. Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames.">Block Games</a></u>.
+The first skill-based, F2P, action RPG game for mobile on Polygon. Developed & published by <u><a target="_blank" href="https://twitter.com/EstotyGames">Estoy Games</a></u> & <u><a target="_blank" href="https://twitter.com/GetBlockGames">Block Games</a></u>.
 
 Join our <u><a target="_blank" href="http://Discord.gg/shatterpoint">Discord</a></u>
 

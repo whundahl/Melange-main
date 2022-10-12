@@ -32,14 +32,14 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `
++-+-+-+ +-+-+-+-+-+
+|O|u|r| |S|t|o|r|y|
++-+-+-+ +-+-+-+-+-+
   
-  Welcome to ${config.name}. 
-  
-  +-+-+-+ +-+-+-+-+-+
-  |O|u|r| |S|t|o|r|y|
-  +-+-+-+ +-+-+-+-+-+
-  
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit am`;
+At Melange Ventures we do things a bit different, we invest a lot of time and a little capital. We are on a never-ending search for those founders with a bit of spice and vision for the future. 
+
+Welcome to the ${config.name} family! 
+`;
 };
 
 /* export const resume = async (args: string[]): Promise<string> => {

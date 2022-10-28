@@ -143,6 +143,13 @@ One second block times and fast transaction finality, all on NEAR L1.
 No middlemen or rent seekers, trade peer-to-peer directly with low fees.
 
 
+<a target="_blank" href="https://superglitchgames.com/"><img src="/super_glitch_games.png" width="250px" height="50px" alt="SuperGlitch"/></a>
+
+Super Glitch Games is an experienced team of game developers, based in Brighton, UK.
+
+Experience the thrill of Anti Gravity Racing on the Ethereum Network.
+
+
 </div>
 <div class="column">
 <br>
@@ -175,7 +182,6 @@ Civitas is a 4x MMO cross-platform (PC, Mobile, Web) civilization simulator that
 A credit line for every wallet.
 
 Income deserves credit. Ready to use, anytime.
-
 
 </div>
 </div>

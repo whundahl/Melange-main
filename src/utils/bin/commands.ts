@@ -150,7 +150,16 @@ Super Glitch Games is an experienced team of game developers, based in Brighton,
 Experience the thrill of Anti Gravity Racing on the Ethereum Network.
 
 
+<a target="_blank" href="https://allos.xyz/"><img src="/allos_logo.png" width="250px" height="50px" alt="Allos"/></a>
+
+Allos presents a simple proposition– if you have a bank account, then you are ready to go. 
+
+Allos operates based on the belief that your money is your money, 
+and you should be able to spend it wherever and whenever you'd like. 
+
 </div>
+
+
 <div class="column">
 <br>
 <a target="_blank" href="https://www.block-games.co"><img src="/block-games.svg" width="250px" height="50px" alt="BLOCK GAMES"/></a>
@@ -182,6 +191,13 @@ Civitas is a 4x MMO cross-platform (PC, Mobile, Web) civilization simulator that
 A credit line for every wallet.
 
 Income deserves credit. Ready to use, anytime.
+
+
+<a target="_blank" href="https://compass.ai/"><img src="/compassAI-01.svg" width="250px" height="50px" alt="CompassLabs"/></a>
+
+Automated Decision-Making for Decentralized Systems
+
+Compass Labs leverages the open-source nature of the blockchain to build extremely realistic simulation environments for DeFi. 
 
 </div>
 </div>

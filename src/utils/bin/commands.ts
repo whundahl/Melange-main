@@ -195,7 +195,7 @@ Income deserves credit. Ready to use, anytime.
 
 <a target="_blank" href="https://compass.ai/"><img src="/compassAI-01.svg" width="250px" height="50px" alt="CompassLabs"/></a>
 
-Automated Decision-Making for Decentralized Systems
+Automated Decision-Making for Decentralized Systems.
 
 Compass Labs leverages the open-source nature of the blockchain to build extremely realistic simulation environments for DeFi. 
 
